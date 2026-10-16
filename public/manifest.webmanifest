@@ -1,0 +1,23 @@
+{
+  "id": "/",
+  "name": "FreePrivacy — Private tools",
+  "short_name": "FreePrivacy",
+  "description": "Local-first privacy and security utilities",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
+  "background_color": "#07130f",
+  "theme_color": "#07130f",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

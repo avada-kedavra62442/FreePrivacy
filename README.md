@@ -1,11 +1,6 @@
 # FreePrivacy
+Local-first browser utilities: password/passphrase generation, SHA digests, Base64/URL encoding, JWT inspection, UUIDs, QR generation/reading, EXIF removal, metadata viewing, file checksums, AES-GCM text encryption, and secure random bytes.
 
-Free, browser-based utilities built around privacy and practical file processing.
+Install with npm install; develop with npm run dev; build with npm run build.
 
-## Development
-
-Install dependencies with `npm install`, then run `npm run dev`.
-
-## Deployment
-
-Designed for deployment on Vercel as a Vite single-page application.
+JWT decoding does not verify signatures. Hashing is not password storage. Encryption depends on passphrase strength. Image metadata removal re-exports to PNG without copying EXIF.
